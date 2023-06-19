@@ -35,7 +35,7 @@
                         <muleVersion>4.2.2</muleVersion>
                         <username>swathikethirireddy</username>
                         <password>Swathi@4</password>
-                        <applicationName>FirstProject</applicationName>
+                        <applicationName>FirstProject-cicd-pipeline</applicationName>
                         <environment>Sandbox</environment>
                         <workerType>MICRO</workerType>
                         <objectStoreV2>true</objectStoreV2>
