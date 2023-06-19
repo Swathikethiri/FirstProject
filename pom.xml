@@ -31,18 +31,6 @@
 				<extensions>true</extensions>
 				<configuration>
 					<sharedLibraries>
-						<sharedLibrary>
-							<groupId>org.codehaus.groovy</groupId>
-							<artifactId>groovy-all</artifactId>
-						</sharedLibrary>
-						<sharedLibrary>
-							<groupId>com.microsoft.sqlserver</groupId>
-							<artifactId>mssql-jdbc</artifactId>
-						</sharedLibrary>
-						<sharedLibrary>
-							<groupId>org.postgresql</groupId>
-							<artifactId>postgresql</artifactId>
-						</sharedLibrary>
 					</sharedLibraries>
 				</configuration>
 			</plugin>

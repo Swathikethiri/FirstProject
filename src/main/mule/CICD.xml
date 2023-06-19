@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core"
-	xmlns:db="http://www.mulesoft.org/schema/mule/db"
 	xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
 	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="
 http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd 
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
-	<db:config name="Database_Config1" doc:name="Database Config" doc:id="0fb78e06-ed17-40f8-88cf-2c949ad385d8" >
-		<db:mssql-connection host="localhost" port="1434" databaseName="Demo" user="demo" password="test123"/>
-	</db:config>
-	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="33851295-2087-4792-b03c-2458c15c38b9" >
-		<http:listener-connection host="0.0.0.0" port="8081" />
-	</http:listener-config>
 	<flow name="CICD_Sampleflow" doc:id="21f3907a-1d76-43dd-adcd-657277f49cb8" >
 		<scheduler doc:name="Scheduler" doc:id="ccc2ca58-5199-4802-9bba-74b8e504180e" >
 			<scheduling-strategy >
