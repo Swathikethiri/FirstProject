@@ -32,7 +32,7 @@
 				<configuration>
 				 <cloudHubDeployment>
                         <uri>https://anypoint.mulesoft.com</uri>
-                        <muleVersion>4.2.2</muleVersion>
+                        <muleVersion>4.3.0</muleVersion>
                         <username>swathikethirireddy</username>
                         <password>Swathi@4</password>
                         <applicationName>FirstProject-cicd-pipeline</applicationName>
